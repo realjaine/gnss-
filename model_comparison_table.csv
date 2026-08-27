@@ -1,0 +1,4 @@
+model,accuracy,precision_macro,recall_macro,f1_macro,train_time_sec
+XGBoost,0.9983,0.9983,0.9983,0.9983,0.215
+Random Forest,0.9967,0.9967,0.9967,0.9967,0.788
+MLP (Neural Net),0.9867,0.987,0.9867,0.9867,0.343

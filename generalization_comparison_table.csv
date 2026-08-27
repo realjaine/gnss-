@@ -1,0 +1,3 @@
+test_set,accuracy,precision_macro,recall_macro,f1_macro,accuracy_drop
+Original (same distribution),0.9997,0.9997,0.9997,0.9997,0.0
+Shifted (harder synthetic params),0.8722,0.8974,0.8722,0.8644,0.1274
