@@ -147,7 +147,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("🛰️ AI-Based GNSS Spoofing & Jamming Detection for UAV Navigation")
+st.title("🛰️ GNSS Spoofing & Jamming Detection for UAV Navigation")
 st.caption(
     "Software-based detection demo — no live RF signals, hardware, or SDR used. "
     "All samples are either recorded GNSS logs or synthetically generated in Python."
