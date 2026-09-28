@@ -1,0 +1,6 @@
+import pandas as pd
+existing = pd.read_csv("gnss_dataset_combined.csv")
+new_data = pd.read_csv("hardware_genuine_data.csv")
+combined = pd.concat([existing, new_data], ignore_index=True)
+combined.to_csv("gnss_dataset_combined.csv", index=False)
+print(f"Old: {len(existing)} | New: {len(new_data)} | Total: {len(combined)}")
